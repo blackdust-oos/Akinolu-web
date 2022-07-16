@@ -1,0 +1,23 @@
+.destination{
+    padding-bottom: 70px ;
+    .in{
+        text-align: center;
+        h1{
+            font-size:40px;
+            margin: 0 auto;
+            color: var(--dark-grey);
+            border-radius: 8px;
+        }
+        p{
+            width:500px;
+            font-size:18px;
+            color: var(--grey);
+            border-radius: 8px;
+            margin: 15px auto;
+            margin-bottom: 0;
+            // &:nth-child(3){
+            //     width:430px;
+            // }
+        }
+    }
+}

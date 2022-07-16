@@ -1,0 +1,29 @@
+.about-company{
+    img{
+        height: 300px;
+    }
+    .about-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        .about-texts{
+            width:40%;
+            p{
+                font-size: 13pt;
+                margin-bottom: 20px;
+                color: var(--grey);
+                line-height: 30px;
+            }
+            button{
+                padding: 18px 32px;
+                font-size: 14pt;
+                color: var(--white);
+                border-radius: 8px;
+                background: var(--yellow);
+                border: none;
+                margin-top: 10px;
+            }
+        }
+    }
+}

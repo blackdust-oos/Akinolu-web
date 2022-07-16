@@ -1,0 +1,92 @@
+.contact{
+    .contact-card{
+        background: var(--whitesmoke);
+        border-radius: 8px;
+        padding:5px;
+        display: grid;
+        grid-template-columns:500px 1fr;
+        .contact-info{
+            background-color: var(--yellow);
+            border-radius: 8px;
+            padding:30px;
+            color:var(--whitesmoke);
+            p{
+                margin-top: 10px;
+                color:var(--light-grey)
+            }
+            .info-list{
+                a{
+                    display: block;
+                    margin-top: 45px;
+                    color: var(--whitesmoke);
+                }
+            }
+            .social-links{
+                margin-top: 120px;
+                display: flex;
+                gap: 5px;
+                a{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background: var(--white);
+                    height:40px;
+                    width:40px;
+                    border-radius: 50%;
+                }
+            }
+        }
+        .contact-form{
+            padding: 30px;
+            
+            .input-fields{
+                display: grid;
+            gap: 20px;
+            grid-template-rows: repeat(2, 80px);
+            grid-template-columns: repeat( auto-fit, minmax(300px, 1fr));
+                div{
+                    color: var(--dark-grey);
+                    label{
+                        font-size: 14px;
+                        font-weight: 600;
+                    }
+                    input{
+                        display:block;
+                        width:100%;
+                        margin-top: 8px;
+                        height: 40px;
+                        border-radius: 8px;
+                        border: none;
+                    }
+                }
+            }
+            .text-area{
+                label{
+                    display: block;
+                    font-size: 14px;
+                    font-weight: 600;
+                }
+                textarea{
+                    display: block;
+                    resize: none;
+                    height:110px;
+                    width: 100%;
+                    margin-top: 8px;
+                    border-radius: 8px;
+                    border:none;
+
+                }
+                width:100%;
+                margin: 20px 0;
+            }
+            button{
+                padding: 13pt 32pt;
+                font-size: 13pt;
+                border-radius: 8px;
+                color:var(--whitesmoke);
+                background:var(--yellow);
+                border:none;
+            }
+        }
+    }
+}

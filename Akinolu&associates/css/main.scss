@@ -1,0 +1,31 @@
+@import 'navbar';
+@import 'hero';
+@import 'destination';
+@import 'services';
+@import 'about';
+@import 'contact';
+
+html{
+    --whitesmoke : rgb(230, 230, 230);
+    --grey : grey;
+    --small-font: 13px;
+    --light-grey: rgb(201, 199, 199);
+    --yellow: rgb(234, 157, 56);
+    --white: white;
+    --dark-grey: rgb(58, 57, 57);
+}
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    .main-body{
+        width: 100%;
+        .section{
+            padding:120px 5%;
+        }
+    }
+}

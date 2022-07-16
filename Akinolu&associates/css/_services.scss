@@ -1,0 +1,28 @@
+.services{
+    background: var(--whitesmoke);
+    .services-content{
+        .services-list{padding:30px;
+            background: var(--white);
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 3px 8px rgba(59, 58, 58, 0.2);
+            h3{
+                color: var(--dark-grey);
+                font-size:15pt;
+                margin-bottom: 20px;
+                font-weight: 500;
+            }
+            ul{
+                list-style-type: none;
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+                gap: 10px;
+                li{
+                    border: 1px solid var(--grey);
+                    border-radius: 5px;
+                    padding: 15px;
+                }
+            }
+        }
+    }
+}
